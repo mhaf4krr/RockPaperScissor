@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <main class="game-holder">
+
+ <section class="player-section">
+       <div class="player-name-holder"><h3 id="playerName">Player 1 <br>Name</h3></div>
+       <img src="boy.jpg"  width='70%'style="border-radius:50%;border:5px black solid;margin-top:4%" alt="Player Image" id='player-img'>
+       <div class="score-card"><H3>SCORE</H3></div>
+       <h2 class="score-player">00</h2>
+       <div class="user-selection">
+            <button class="button-select-user" disabled>None</button>
+       </div>
+</section>
+
+<section class="middle-section">
+      <div class="reaction-screen">
+            <video id='reaction' src="" autoplay width="100%" height="100%"></video></div>
+      <div class="middle-section-lower">
+            <div class="win-lose">
+                  <div class="win"><h3>WON</h3></div>
+                  <div class='lose'><h3>LOST</h3></div>
+            </div>
+
+            <div class="options">
+                  <h4>CONTROLS</h4><br>
+                  <button class="button-event" tabindex="1">Rock</button>
+                  <button class="button-event" tabindex="2">Paper</button>
+                  <button class="button-event" tabindex="3">Scissor</button>
+            </div>
+      </div>
+</section>
+
+<section class="computer-section">
+            <div class="computer-name-holder"><h3 id="computerName">WO PROGRAMMER<br> BOSS </h3></div>
+            <img src="bossface.png" width='70%'style="border-radius:50%;border:5px black solid;margin-top:4%" alt="Computer Image" id='computer-img'><br>
+            <div class="score-card"><h3>SCORE</h3></div>
+            <h2 class="score-computer">00</h2>
+            <div class="computer-selection">
+                  <button class="button-select-computer" disabled>None</button>
+            </div>
+     </section>
+
+
+ </main>
+
+ 
+<!-- audio -->
+ <audio id='game-event-sound' src=""></audio>
+ <audio src="" id='click-sound'></audio>
+      <script src="app.js"></script>
+
+
+</body>
+</html>

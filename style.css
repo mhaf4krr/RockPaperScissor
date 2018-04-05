@@ -1,0 +1,201 @@
+*{box-sizing: border-box;}
+
+body {
+      height:100vh;
+      margin:0px 0px;
+      
+      background:rgba(0, 0, 0, 0.808);
+}
+
+.game-holder{
+      height:100%;
+      margin:0 auto;
+      text-align: center;
+}
+
+.player-section,.computer-section{
+      width:23vw;
+      height:85vh;
+      background:rgb(225, 151, 14);
+      border-radius:0px 0px 30px 30px;
+      border:5px black solid;
+      text-align: center;
+}
+
+section{
+      display: inline-block;
+}
+
+.player-section{
+      margin-left:2.4%;
+      float: left;
+
+      
+}
+
+.computer-section{
+      float:right;
+      margin-right:2.4%;
+}
+
+.player-name-holder,.computer-name-holder{
+      background: black;
+      color:white;
+      padding:1%;
+      font-size: 1rem;
+      text-align: center;
+}
+
+.score-card{
+      height:10%;
+      width:80%;
+      background:rgb(194, 106, 5);
+      border:5px black solid;
+      margin: 10% auto;
+}
+ .score-card h3{
+       text-align: center;
+       margin: 5% auto;
+       vertical-align: middle;
+       
+ }
+
+ .score-player,.score-computer {
+       font-size: 3rem;
+ }
+.middle-section{
+      width:48%;
+      height:80vh;
+      background:rgb(233, 155, 12); 
+      margin:0 auto;
+     
+      
+      
+}
+
+.reaction-screen{
+      height:70%;
+      width:70%;
+      
+      margin:0 auto;
+      border:8px white solid;
+}
+
+.middle-section-lower{
+      display:block;
+      height:60%;
+      
+      
+     
+}
+
+.win-lose{
+      border-radius: 50px 50px 0 0;
+      border-right:7px solid floralwhite;
+      border-left:7px solid floralwhite;
+      border-bottom:5px solid floralwhite;
+      height:50%;
+      width:100%;
+      background:rgba(0, 0, 0, 0.808);
+      margin:0 0;
+      padding:2% 0;
+      
+      
+
+}
+
+.win,.lose{
+      display:inline-block;
+      height:90%;
+      width:45%;
+      margin:1% 1%;
+      border:5px solid black;
+      padding:2% 0;
+      border-radius: 30px;
+      color:white;
+
+}
+
+.win h3,.lose h3 {
+      vertical-align: middle;
+      font-size: 1.7rem;
+}
+
+.win{
+      background: green;
+}
+
+
+/* .win:hover{
+      transform:scale(1.1);
+      border:7px solid black;
+      transition-duration: 1s;
+
+}
+
+.lose:hover{
+      transform:scale(1.1);
+      border:7px solid black;
+      transition-duration: 1s;
+
+} */
+
+.lose {
+      background: red;
+}
+
+.options {
+      margin-top:1%;
+      width:100%;
+      height:auto;
+      background: rgb(216, 123, 17);
+      padding:0 4%;
+      padding-bottom: 2%;
+      border-top-right-radius: 85px;
+      border-top-left-radius: 85px;
+      border-top:8px solid rgb(248, 79, 0);
+}
+
+.button-select-user,.button-select-computer,.options button{
+      margin:0% 2%;
+      border-radius:10px;
+      background:ghostwhite;
+      color:red;
+      padding:1% 5%;
+      font-size: 1.7rem;
+      border:3px black solid;
+
+
+}
+
+.options button:hover {
+      background:rgba(201, 15, 15, 0.849);
+      color:ghostwhite;
+      cursor: pointer;
+}
+
+.options button:active{
+      background:rgb(0, 255, 98);
+      color:black;
+}
+
+.options h4 {
+      margin:0 auto;
+      color:white;
+      font-size: 1.3rem;
+      background:  rgb(223, 126, 15);
+      width:85%;
+      padding:10px 0;
+}
+
+.computer-selection,.user-selection{
+      height:14%;
+      width:100%;
+      background: rgb(80, 146, 4);
+      border-radius:50px 0px 50px 0px;
+      border-bottom:7px black solid
+}
+
+.score-computer,.score-player{
+      margin-bottom: 0px;
+}
